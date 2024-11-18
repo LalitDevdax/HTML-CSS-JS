@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.full{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5vw;
+    background-color: rgb(212, 212, 241);
+
+}
+.top-ele{
+    width: 12vw;
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas-screen{
+    background-color: rgb(0, 0, 0);
+    
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input{
+    width: 12vw;
+}
+
+
+.bottom-ele{
+    width: 22%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0vw;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.05vw;
+    background-color: rgb(212, 212, 241);
+
+}
+.bottom-ele-text{
+    margin: 4px;
+    font-size: 1.3vw;
+}
+
+.btnfix{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.inside-full{
+    width: 70vw;
+    height:40vw;
+    background-color: rgb(72, 94, 48);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
